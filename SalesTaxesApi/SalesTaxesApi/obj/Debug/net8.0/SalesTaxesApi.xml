@@ -4,6 +4,18 @@
         <name>SalesTaxesApi</name>
     </assembly>
     <members>
+        <member name="T:SalesTaxesApi.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:SalesTaxesApi.Models.Product">
             <summary>
             Represents a Product in the system.
