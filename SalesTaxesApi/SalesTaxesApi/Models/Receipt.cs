@@ -15,7 +15,9 @@ namespace SalesTaxesApi.Models
         [Key]
         public int receiptId { get; set; }
         [Required]
+        [Range(0.01, 9999999.99)]
         public decimal totalTaxes { get; set; }
+        [Range(0.01, 9999999.99)]
         public decimal totalCost { get; set; }
         public DateTime? created_at { get; set; }
         public DateTime? updated_at { get; set; }

@@ -44,21 +44,27 @@ namespace SalesTaxesApi.Services
             return Task.FromResult(UpdateResult.SuccessResultUpdate(taxType.taxTypeId));
         }
 
-        public TaxType GetTaxTypeById(int id)
+        public TaxType? GetTaxTypeById(int id)
         {
-            return _context.TaxTypes
+            var taxType =  _context.TaxTypes
                     .Where(d => d.taxTypeId == id)
-                    .First();
+                    .FirstOrDefault();
+
+            if (taxType == null)
+            {
+                return null;
+            }
+            return taxType;
         }
 
         public Task<DeleteResult> DeleteTaxTypeById(int id)
         {
-            var subscription = _context.TaxTypes.First(a => a.taxTypeId == id);
+            var taxType = _context.TaxTypes.First(a => a.taxTypeId == id);
 
-            if (subscription != null)
+            if (taxType != null)
             {
-                subscription.isDeleted = true;
-                subscription.deleted_at = DateTime.Now;
+                taxType.isDeleted = true;
+                taxType.deleted_at = DateTime.Now;
 
                 Save();
                 return Task.FromResult(DeleteResult.SuccessResult("Successfully deleted tax type"));

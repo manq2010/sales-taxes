@@ -15,7 +15,7 @@ namespace SalesTaxesApi.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]
-    public class TaxController : ControllerBase
+    public class TaxController : Controller
     {
         #region Fields
         private readonly SalesTaxesDBContext _context;
@@ -152,7 +152,7 @@ namespace SalesTaxesApi.Controllers
                 var taxType = _taxService.GetTaxTypeById(id);
                 if (taxType == null)
                 {
-                    return NotFound();
+                    return NotFound($"Tax type with ID {id} was not found.");
                 }
 
                 return Ok(new ResponseResult

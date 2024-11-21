@@ -40,6 +40,18 @@
         <member name="M:SalesTaxesApi.Migrations.UpdateTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:SalesTaxesApi.Migrations.UpdateModels">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateModels.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateModels.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateModels.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:SalesTaxesApi.Models.Product">
             <summary>
             Represents a Product in the system.
