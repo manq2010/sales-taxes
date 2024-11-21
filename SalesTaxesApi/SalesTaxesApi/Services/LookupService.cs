@@ -1,8 +1,11 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using SalesTaxesApi.DbContexts;
 using SalesTaxesApi.Interfaces;
 using SalesTaxesApi.Models;
+using SalesTaxesApi.Configurations;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -13,14 +16,38 @@ namespace SalesTaxesApi.Services
     {
         private readonly SalesTaxesDBContext _context;
         private ILogger<LookupService> _logger;
+        private readonly IUriService _uriService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
         public LookupService(
               SalesTaxesDBContext context,
-              ILogger<LookupService> logger
+              ILogger<LookupService> logger,
+              IUriService uriService, 
+              IHttpContextAccessor httpContextAccessor
           )
         {
             _context = context;
             _logger = logger;
+            _uriService = uriService;
+            _httpContextAccessor = httpContextAccessor;
+        }
+        public async Task<ResponseModel<List<Receipt>>> GetPagedAllReceipts([FromQuery] PaginationFilter filter)
+        {
+            var route = _httpContextAccessor.HttpContext?.Request.Path.Value;
+            var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
+
+            var pagedData = _context.Receipts
+                .Where(d => d.isDeleted == false)
+                .OrderByDescending(d => d.receiptId)
+                .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
+                .Take(validFilter.PageSize)
+                .ToList();
+
+            var totalRecords = _context.Receipts.Where(d => d.isDeleted == false).Count();
+
+            var pagedReponse = PaginationConfig.CreatePagedReponse<Receipt>(pagedData, validFilter, totalRecords, _uriService, route);
+            return pagedReponse;
+
         }
         public IEnumerable<ProductType> GetAllProductTypes()
         {
@@ -33,6 +60,18 @@ namespace SalesTaxesApi.Services
         {
             return _context.TaxTypes
             .Where(d => d.isDeleted == false)
+            .ToList();
+        }
+        public IEnumerable<Product> GetAllImportedGoods()
+        {
+            return _context.Products
+            .Where(d => d.isDeleted == false && d.isImport == true)
+            .ToList();
+        }
+        public IEnumerable<Product> GetAllLocalGoods()
+        {
+            return _context.Products
+            .Where(d => d.isDeleted == false && d.isImport == false)
             .ToList();
         }
 

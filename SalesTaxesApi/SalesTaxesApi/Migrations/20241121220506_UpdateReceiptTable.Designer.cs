@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SalesTaxesApi.DbContexts;
 
@@ -11,9 +12,11 @@ using SalesTaxesApi.DbContexts;
 namespace SalesTaxesApi.Migrations
 {
     [DbContext(typeof(SalesTaxesDBContext))]
-    partial class SalesTaxesDBContextModelSnapshot : ModelSnapshot
+    [Migration("20241121220506_UpdateReceiptTable")]
+    partial class UpdateReceiptTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -265,107 +268,6 @@ namespace SalesTaxesApi.Migrations
                     b.HasKey("productId");
 
                     b.ToTable("Product");
-
-                    b.HasData(
-                        new
-                        {
-                            productId = 1,
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            isImport = false,
-                            productName = "Book",
-                            unitPrice = 12.49m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            productId = 2,
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            isImport = false,
-                            productName = "Music CD",
-                            unitPrice = 14.99m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            productId = 3,
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            isImport = false,
-                            productName = "Chocolate Bar",
-                            unitPrice = 0.85m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            productId = 4,
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            isImport = true,
-                            productName = "Box of Chocolates",
-                            unitPrice = 10.00m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            productId = 5,
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            isImport = true,
-                            productName = "Bottle of Perfume",
-                            unitPrice = 47.50m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            productId = 6,
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            isImport = true,
-                            productName = "Bottle of Perfume",
-                            unitPrice = 27.99m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            productId = 7,
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            isImport = false,
-                            productName = "Bottle of Perfume",
-                            unitPrice = 18.99m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            productId = 8,
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            isImport = false,
-                            productName = "Packet of paracetamol",
-                            unitPrice = 9.75m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            productId = 9,
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            isImport = true,
-                            productName = "Box of Chocolates",
-                            unitPrice = 11.25m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("SalesTaxesApi.Models.ProductType", b =>
@@ -450,10 +352,6 @@ namespace SalesTaxesApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("receiptId"));
 
-                    b.Property<string>("aspUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime?>("created_at")
                         .HasColumnType("datetime2");
 
@@ -462,10 +360,6 @@ namespace SalesTaxesApi.Migrations
 
                     b.Property<bool?>("isDeleted")
                         .HasColumnType("bit");
-
-                    b.Property<string>("receiptName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("totalCost")
                         .HasColumnType("decimal(18,2)");
@@ -479,32 +373,6 @@ namespace SalesTaxesApi.Migrations
                     b.HasKey("receiptId");
 
                     b.ToTable("Receipt");
-
-                    b.HasData(
-                        new
-                        {
-                            receiptId = 1,
-                            aspUserId = "",
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            receiptName = "Local Only Shopping",
-                            totalCost = 0m,
-                            totalTaxes = 0m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            receiptId = 2,
-                            aspUserId = "",
-                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
-                            isDeleted = false,
-                            receiptName = "LocaL and International Shopping",
-                            totalCost = 0m,
-                            totalTaxes = 0m,
-                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("SalesTaxesApi.Models.ReceiptItem", b =>

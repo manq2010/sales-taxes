@@ -76,6 +76,42 @@
         <member name="M:SalesTaxesApi.Migrations.UpdateProductTypeSeedidng.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:SalesTaxesApi.Migrations.UpdateReceiptTable">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SalesTaxesApi.Migrations.UpdateReceiptAddSeeding">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptAddSeeding.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptAddSeeding.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptAddSeeding.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SalesTaxesApi.Migrations.UpdateValidations">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateValidations.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateValidations.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateValidations.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:SalesTaxesApi.Models.Product">
             <summary>
             Represents a Product in the system.

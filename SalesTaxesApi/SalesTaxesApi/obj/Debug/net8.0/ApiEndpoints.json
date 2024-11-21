@@ -19,6 +19,38 @@
   },
   {
     "ContainingType": "SalesTaxesApi.Controllers.LookupController",
+    "Method": "GetAllImportedGoods",
+    "RelativePath": "api/v1/Lookup/GetAllImportedGoods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesTaxesApi.Controllers.LookupController",
+    "Method": "GetAllLocalGoods",
+    "RelativePath": "api/v1/Lookup/GetAllLocalGoods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesTaxesApi.Controllers.LookupController",
     "Method": "GetAllProductTypes",
     "RelativePath": "api/v1/Lookup/GetAllProductTypes",
     "HttpMethod": "GET",
@@ -46,6 +78,42 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesTaxesApi.Controllers.LookupController",
+    "Method": "GetPagedAllReceipts",
+    "RelativePath": "api/v1/Lookup/GetPagedAllReceipts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
       }
     ]
   },
@@ -260,6 +328,50 @@
     "ReturnTypes": [
       {
         "Type": "SalesTaxesApi.Models.ProductType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 202
+      },
+      {
+        "Type": "SalesTaxesApi.Models.UpdateResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesTaxesApi.Controllers.ReceiptsController",
+    "Method": "PostInsertReceipt",
+    "RelativePath": "api/v1/Receipts/PostInsertReceipt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "receipt",
+        "Type": "SalesTaxesApi.Models.Receipt",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SalesTaxesApi.Models.Receipt",
         "MediaTypes": [
           "text/plain",
           "application/json",

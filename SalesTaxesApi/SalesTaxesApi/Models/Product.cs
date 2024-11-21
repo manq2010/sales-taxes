@@ -16,9 +16,9 @@ namespace SalesTaxesApi.Models
         public int productId { get; set; }
         [Required]
         public string productName { get; set; }
-
-        [Range(0.01, 9999999.99)]
+        [Range(0.00, 9999999.99)]
         public decimal unitPrice { get; set; }
+        public bool? isImport { get; set; }
         public DateTime? created_at { get; set; }
         public DateTime? updated_at { get; set; }
         public bool? isDeleted { get; set; }
