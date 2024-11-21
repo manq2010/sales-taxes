@@ -75,7 +75,7 @@ namespace SalesTaxesApi.Controllers
                 else
                 {
                     // Update existing product
-                    if (!ProductExists(product.productTypeId))
+                    if (!ProductExists(product.productId))
                     {
                         return NotFound();
                     }
@@ -180,7 +180,7 @@ namespace SalesTaxesApi.Controllers
             {
                 if (!ProductExists(id))
                 {
-                    return NotFound();
+                    return NotFound($"Product with ID {id} was not found.");
                 }
 
                 var result = await _productService.DeleteProductById(id);
@@ -213,7 +213,7 @@ namespace SalesTaxesApi.Controllers
             {
                 if (!ProductTypeExists(id))
                 {
-                    return NotFound();
+                    return NotFound($"Product type with ID {id} was not found.");
                 }
 
                 var result = await _productService.DeleteProductTypeById(id);
@@ -300,7 +300,7 @@ namespace SalesTaxesApi.Controllers
         #region Helper Methods
         private bool ProductExists(int id)
         {
-            return _context.Products.Any(e => e.productTypeId == id);
+            return _context.Products.Any(e => e.productId == id);
         }
 
         private bool ProductTypeExists(int id)

@@ -52,6 +52,30 @@
         <member name="M:SalesTaxesApi.Migrations.UpdateModels.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:SalesTaxesApi.Migrations.UpdateTableColumns">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateTableColumns.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateTableColumns.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateTableColumns.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SalesTaxesApi.Migrations.UpdateProductTypeSeedidng">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateProductTypeSeedidng.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateProductTypeSeedidng.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateProductTypeSeedidng.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:SalesTaxesApi.Models.Product">
             <summary>
             Represents a Product in the system.

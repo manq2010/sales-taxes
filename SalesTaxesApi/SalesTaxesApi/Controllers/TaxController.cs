@@ -120,7 +120,7 @@ namespace SalesTaxesApi.Controllers
             {
                 if (!TaxTypeExists(id))
                 {
-                    return NotFound();
+                    return NotFound($"Tax type with ID {id} was not found.");
                 }
 
                 var result = await _taxService.DeleteTaxTypeById(id);

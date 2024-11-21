@@ -72,15 +72,13 @@ namespace SalesTaxesApi.Services
         public Product? GetProductById(int id)
         {
             var product = _context.Products
-                    .Include(p => p.ProductType)
-                    .FirstOrDefault(p => p.productId == id);
+                    .Where(d => d.productId == id)
+                    .FirstOrDefault();
 
             if (product == null)
             {
                 return null;
             }
-
-            product.ProductType ??= [];
 
             return product;
         }

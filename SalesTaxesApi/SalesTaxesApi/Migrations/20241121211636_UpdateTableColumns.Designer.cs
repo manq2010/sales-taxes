@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SalesTaxesApi.DbContexts;
 
@@ -11,9 +12,11 @@ using SalesTaxesApi.DbContexts;
 namespace SalesTaxesApi.Migrations
 {
     [DbContext(typeof(SalesTaxesDBContext))]
-    partial class SalesTaxesDBContextModelSnapshot : ModelSnapshot
+    [Migration("20241121211636_UpdateTableColumns")]
+    partial class UpdateTableColumns
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -302,7 +305,7 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
+                            isExempt = false,
                             productTypeName = "Books",
                             updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -312,7 +315,7 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
+                            isExempt = false,
                             productTypeName = "Food",
                             updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -322,7 +325,7 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
+                            isExempt = false,
                             productTypeName = "Medical Products",
                             updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
                         },

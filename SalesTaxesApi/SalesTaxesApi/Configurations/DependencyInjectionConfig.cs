@@ -15,7 +15,7 @@ namespace SalesTaxesApi.Configurations
 
             services.AddHttpClient();
             //services.AddScoped<IAuthenticateService, AuthenticateService>();
-            //services.AddScoped<ILookupService, LookupService>();
+            services.AddScoped<ILookupService, LookupService>();
             services.AddScoped<IProductService, ProductService>();
             //services.AddScoped<IReceiptService, ReceiptService>();
             services.AddScoped<ITaxService, TaxService>();

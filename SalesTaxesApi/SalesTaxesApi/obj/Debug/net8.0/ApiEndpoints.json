@@ -18,6 +18,38 @@
     ]
   },
   {
+    "ContainingType": "SalesTaxesApi.Controllers.LookupController",
+    "Method": "GetAllProductTypes",
+    "RelativePath": "api/v1/Lookup/GetAllProductTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesTaxesApi.Controllers.LookupController",
+    "Method": "GetAllTaxTypes",
+    "RelativePath": "api/v1/Lookup/GetAllTaxTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "SalesTaxesApi.Controllers.ProductController",
     "Method": "DeleteProductById",
     "RelativePath": "api/v1/Product/DeleteProductById",
