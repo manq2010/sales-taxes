@@ -16,4 +16,9 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
     }
 
     public DbSet<MyUser> User { get; set; }
+    public DbSet<Product> Products { get; set; }
+    public DbSet<ProductType> ProductTypes { get; set; }
+    public DbSet<Receipt> Receipts { get; set; }
+    public DbSet<ReceiptItem> ReceiptItems { get; set; }
+    public DbSet<TaxType> TaxTypes { get; set; }
 }

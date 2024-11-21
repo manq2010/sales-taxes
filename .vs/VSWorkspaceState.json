@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SalesTaxesApi",
+    "\\SalesTaxesApi\\SalesTaxesApi",
+    "\\SalesTaxesApi\\SalesTaxesApi\\DbContexts"
+  ],
+  "SelectedNode": "\\SalesTaxesApi\\SalesTaxesApi\\DbContexts\\ApplicationDbContext.cs",
+  "PreviewInSolutionExplorer": false
+}

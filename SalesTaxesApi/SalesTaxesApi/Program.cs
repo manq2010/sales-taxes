@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using SalesTaxesApi.Configurations;
 using SalesTaxesApi.DbContexts;
 using SalesTaxesApi.Models;
 
@@ -9,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("ConnStr")
     ?? throw new InvalidOperationException("Connection string 'ConnStr' not found.");
+builder.Services.ResolveDependencies();
 
 // Remove explicit AddAuthentication for Identity.Application
 builder.Services.AddAuthorizationBuilder();
