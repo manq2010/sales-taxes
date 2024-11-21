@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SalesTaxesApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cae577f2bc52afd18df1bc74c19da9b7bbae7bd9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+031328fec0b4b71923f99ec6270e208b5e8f16e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SalesTaxesApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SalesTaxesApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

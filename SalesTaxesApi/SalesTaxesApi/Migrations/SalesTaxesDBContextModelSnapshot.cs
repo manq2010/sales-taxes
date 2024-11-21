@@ -232,6 +232,188 @@ namespace SalesTaxesApi.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("SalesTaxesApi.Models.Product", b =>
+                {
+                    b.Property<int>("productId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("productId"));
+
+                    b.Property<DateTime?>("created_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("deleted_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("isImported")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isdeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("productName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("productTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("quantity")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("unitPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime?>("updated_at")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("productId");
+
+                    b.ToTable("Product");
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.ProductType", b =>
+                {
+                    b.Property<int>("productTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("productTypeId"));
+
+                    b.Property<DateTime?>("created_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("deleted_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isExempt")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("productTypeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("updated_at")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("productTypeId");
+
+                    b.ToTable("ProductType");
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.Receipt", b =>
+                {
+                    b.Property<int>("receiptId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("receiptId"));
+
+                    b.Property<DateTime?>("created_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("deleted_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<decimal>("totalCost")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("totalTaxes")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime?>("updated_at")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("receiptId");
+
+                    b.ToTable("Receipt");
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.ReceiptItem", b =>
+                {
+                    b.Property<int>("receiptItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("receiptItemId"));
+
+                    b.Property<DateTime?>("created_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("deleted_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("itemName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("itemPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("priceIncludingTax")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("quantity")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int?>("receiptId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("taxAmount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime?>("updated_at")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("receiptItemId");
+
+                    b.HasIndex("receiptId");
+
+                    b.ToTable("ReceiptItem");
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.TaxType", b =>
+                {
+                    b.Property<int>("taxTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("taxTypeId"));
+
+                    b.Property<DateTime?>("created_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("deleted_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<decimal>("rate")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("taxName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("updated_at")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("taxTypeId");
+
+                    b.ToTable("TaxType");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -281,6 +463,18 @@ namespace SalesTaxesApi.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.ReceiptItem", b =>
+                {
+                    b.HasOne("SalesTaxesApi.Models.Receipt", null)
+                        .WithMany("ReceiptItems")
+                        .HasForeignKey("receiptId");
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.Receipt", b =>
+                {
+                    b.Navigation("ReceiptItems");
                 });
 #pragma warning restore 612, 618
         }

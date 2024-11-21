@@ -16,6 +16,30 @@
         <member name="M:SalesTaxesApi.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:SalesTaxesApi.Migrations.CreateTables">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.CreateTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.CreateTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.CreateTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SalesTaxesApi.Migrations.UpdateTables">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
         <member name="T:SalesTaxesApi.Models.Product">
             <summary>
             Represents a Product in the system.

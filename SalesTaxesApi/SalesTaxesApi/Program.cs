@@ -45,6 +45,12 @@ builder.Services.AddIdentity<MyUser, IdentityRole>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Add logging
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.AddDebug();
+builder.Logging.AddEventSourceLogger();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

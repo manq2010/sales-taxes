@@ -20,6 +20,6 @@ namespace SalesTaxesApi.Models
         public DateTime? created_at { get; set; }
         public DateTime? updated_at { get; set; }
         public bool? isDeleted { get; set; }
-        public DateTime? deleted_at { get; set; }
+        public DateTime deleted_at { get; set; }
     }
 }

@@ -18,6 +18,7 @@ namespace SalesTaxesApi.Configurations
             //services.AddScoped<ILookupService, LookupService>();
             //services.AddScoped<IProductService, ProductService>();
             //services.AddScoped<IReceiptService, ReceiptService>();
+            services.AddScoped<ITaxService, TaxService>();
 
             return services;
         }
