@@ -16,10 +16,11 @@ namespace SalesTaxesApi.Models
         public int taxTypeId { get; set; }
         [Required] 
         public string taxName { get; set; } = string.Empty;
+        [Range(1, 9999999)]
         public decimal rate { get; set; }
         public DateTime? created_at { get; set; }
         public DateTime? updated_at { get; set; }
         public bool? isDeleted { get; set; }
-        public DateTime? deleted_at { get; set; }
+        public DateTime deleted_at { get; set; }
     }
 }

@@ -232,6 +232,382 @@ namespace SalesTaxesApi.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("SalesTaxesApi.Models.Product", b =>
+                {
+                    b.Property<int>("productId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("productId"));
+
+                    b.Property<DateTime?>("created_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("deleted_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isImport")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("productName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("unitPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime?>("updated_at")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("productId");
+
+                    b.ToTable("Product");
+
+                    b.HasData(
+                        new
+                        {
+                            productId = 1,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isImport = false,
+                            productName = "Book",
+                            unitPrice = 12.49m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productId = 2,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isImport = false,
+                            productName = "Music CD",
+                            unitPrice = 14.99m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productId = 3,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isImport = false,
+                            productName = "Chocolate Bar",
+                            unitPrice = 0.85m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productId = 4,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isImport = true,
+                            productName = "Box of Chocolates",
+                            unitPrice = 10.00m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productId = 5,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isImport = true,
+                            productName = "Bottle of Perfume",
+                            unitPrice = 47.50m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productId = 6,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isImport = true,
+                            productName = "Bottle of Perfume",
+                            unitPrice = 27.99m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productId = 7,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isImport = false,
+                            productName = "Bottle of Perfume",
+                            unitPrice = 18.99m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productId = 8,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isImport = false,
+                            productName = "Packet of paracetamol",
+                            unitPrice = 9.75m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productId = 9,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isImport = true,
+                            productName = "Box of Chocolates",
+                            unitPrice = 11.25m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.ProductType", b =>
+                {
+                    b.Property<int>("productTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("productTypeId"));
+
+                    b.Property<DateTime?>("created_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("deleted_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool?>("isExempt")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("productTypeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("updated_at")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("productTypeId");
+
+                    b.ToTable("ProductType");
+
+                    b.HasData(
+                        new
+                        {
+                            productTypeId = 1,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isExempt = true,
+                            productTypeName = "Books",
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productTypeId = 2,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isExempt = true,
+                            productTypeName = "Food",
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productTypeId = 3,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isExempt = true,
+                            productTypeName = "Medical Products",
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            productTypeId = 4,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            isExempt = false,
+                            productTypeName = "Other",
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.Receipt", b =>
+                {
+                    b.Property<int>("receiptId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("receiptId"));
+
+                    b.Property<string>("aspUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("created_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("deleted_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("receiptName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("totalCost")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("totalTaxes")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime?>("updated_at")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("receiptId");
+
+                    b.ToTable("Receipt");
+
+                    b.HasData(
+                        new
+                        {
+                            receiptId = 1,
+                            aspUserId = "",
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            receiptName = "Local Only Shopping",
+                            totalCost = 0m,
+                            totalTaxes = 0m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            receiptId = 2,
+                            aspUserId = "",
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            receiptName = "LocaL and International Shopping",
+                            totalCost = 0m,
+                            totalTaxes = 0m,
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.ReceiptItem", b =>
+                {
+                    b.Property<int>("receiptItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("receiptItemId"));
+
+                    b.Property<DateTime?>("created_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("deleted_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("itemId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("priceIncludingTax")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("productTypeId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("quantity")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("receiptId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("taxAmount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime?>("updated_at")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("receiptItemId");
+
+                    b.HasIndex("receiptId");
+
+                    b.ToTable("ReceiptItem");
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.TaxType", b =>
+                {
+                    b.Property<int>("taxTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("taxTypeId"));
+
+                    b.Property<DateTime?>("created_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("deleted_at")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool?>("isDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<decimal>("rate")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("taxName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("updated_at")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("taxTypeId");
+
+                    b.ToTable("TaxType");
+
+                    b.HasData(
+                        new
+                        {
+                            taxTypeId = 1,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            rate = 10m,
+                            taxName = "Basic Tax",
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            taxTypeId = 2,
+                            created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            isDeleted = false,
+                            rate = 5m,
+                            taxName = "Import Duty",
+                            updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -281,6 +657,20 @@ namespace SalesTaxesApi.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.ReceiptItem", b =>
+                {
+                    b.HasOne("SalesTaxesApi.Models.Receipt", null)
+                        .WithMany("ReceiptItems")
+                        .HasForeignKey("receiptId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("SalesTaxesApi.Models.Receipt", b =>
+                {
+                    b.Navigation("ReceiptItems");
                 });
 #pragma warning restore 612, 618
         }
