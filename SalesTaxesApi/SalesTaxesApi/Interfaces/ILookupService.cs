@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SalesTaxesApi.Dtos;
 using SalesTaxesApi.Models;
 
 namespace SalesTaxesApi.Interfaces
 {
     public interface ILookupService
     {
-        Task<ResponseModel<List<Receipt>>> GetPagedAllReceipts([FromQuery] PaginationFilter filter);
+        Task<ResponsePaged<List<PagedReceiptDto>>> GetPagedAllReceipts([FromQuery] PaginationFilter filter);
         IEnumerable<ProductType> GetAllProductTypes();
         IEnumerable<Product> GetAllImportedGoods();
         IEnumerable<Product> GetAllLocalGoods();

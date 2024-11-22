@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_2",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_5",
     "RelativePath": "",
     "HttpMethod": "GET",
     "IsController": false,
@@ -16,6 +16,48 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "SalesTaxesApi.Controllers.AuthenticateController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Authenticate/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SalesTaxesApi.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalesTaxesApi.Controllers.AuthenticateController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "api/v1/Authenticate/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalesTaxesApi.Controllers.AuthenticateController",
+    "Method": "Register",
+    "RelativePath": "api/v1/Authenticate/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SalesTaxesApi.Models.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "SalesTaxesApi.Controllers.LookupController",

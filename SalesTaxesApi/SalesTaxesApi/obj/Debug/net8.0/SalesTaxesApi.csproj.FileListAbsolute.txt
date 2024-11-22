@@ -317,3 +317,4 @@ C:\Users\manq2\Desktop\Mancoba\sales-taxes\SalesTaxesApi\SalesTaxesApi\bin\Debug
 C:\Users\manq2\Desktop\Mancoba\sales-taxes\SalesTaxesApi\SalesTaxesApi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\manq2\Desktop\Mancoba\sales-taxes\SalesTaxesApi\SalesTaxesApi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\manq2\Desktop\Mancoba\sales-taxes\SalesTaxesApi\SalesTaxesApi\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\manq2\Desktop\Mancoba\sales-taxes\SalesTaxesApi\SalesTaxesApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

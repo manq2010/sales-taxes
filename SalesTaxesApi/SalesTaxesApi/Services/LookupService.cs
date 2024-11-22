@@ -9,6 +9,7 @@ using SalesTaxesApi.Configurations;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using SalesTaxesApi.Dtos;
 
 namespace SalesTaxesApi.Services
 {
@@ -31,7 +32,7 @@ namespace SalesTaxesApi.Services
             _uriService = uriService;
             _httpContextAccessor = httpContextAccessor;
         }
-        public async Task<ResponseModel<List<Receipt>>> GetPagedAllReceipts([FromQuery] PaginationFilter filter)
+        public async Task<ResponsePaged<List<PagedReceiptDto>>> GetPagedAllReceipts([FromQuery] PaginationFilter filter)
         {
             var route = _httpContextAccessor.HttpContext?.Request.Path.Value;
             var validFilter = new PaginationFilter(filter.PageNumber, filter.PageSize);
@@ -41,11 +42,18 @@ namespace SalesTaxesApi.Services
                 .OrderByDescending(d => d.receiptId)
                 .Skip((validFilter.PageNumber - 1) * validFilter.PageSize)
                 .Take(validFilter.PageSize)
+                .Select(receipt => new PagedReceiptDto
+                {
+                    ReceiptId = receipt.receiptId,
+                    ReceiptName = receipt.receiptName,
+                    TotalTaxes = receipt.totalTaxes,
+                    TotalCost = receipt.totalCost
+                })
                 .ToList();
 
             var totalRecords = _context.Receipts.Where(d => d.isDeleted == false).Count();
 
-            var pagedReponse = PaginationConfig.CreatePagedReponse<Receipt>(pagedData, validFilter, totalRecords, _uriService, route);
+            var pagedReponse = PaginationConfig.CreatePagedReponse<PagedReceiptDto>(pagedData, validFilter, totalRecords, _uriService, route);
             return pagedReponse;
 
         }

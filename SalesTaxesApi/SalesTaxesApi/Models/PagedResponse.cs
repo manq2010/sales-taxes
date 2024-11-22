@@ -1,6 +1,6 @@
 namespace SalesTaxesApi.Models
 {
-    public class PagedResponse<T> : ResponseModel<T>
+    public class PagedResponse<T> : ResponsePaged<T>
     {
         public int PageNumber { get; set; }
         public int PageSize { get; set; }

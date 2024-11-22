@@ -1,11 +1,11 @@
 namespace SalesTaxesApi.Models
 {
-    public class ResponseModel<T>
+    public class ResponsePaged<T>
     {
-        public ResponseModel()
+        public ResponsePaged()
         {
         }
-        public ResponseModel(T data)
+        public ResponsePaged(T data)
         {
             Succeeded = true;
             Message = string.Empty;

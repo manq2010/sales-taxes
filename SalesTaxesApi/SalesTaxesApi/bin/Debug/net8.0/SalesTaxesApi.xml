@@ -4,6 +4,56 @@
         <name>SalesTaxesApi</name>
     </assembly>
     <members>
+        <member name="T:SalesTaxesApi.Models.Product">
+            <summary>
+            Represents a Product in the system.
+            </summary>
+        </member>
+        <member name="P:SalesTaxesApi.Models.Product.productId">
+            <summary>
+            Gets or sets the ID of the product.
+            </summary>
+        </member>
+        <member name="T:SalesTaxesApi.Models.ProductType">
+            <summary>
+            Represents a Product Type in the system.
+            </summary>
+        </member>
+        <member name="P:SalesTaxesApi.Models.ProductType.productTypeId">
+            <summary>
+            Gets or sets the ID of the product type.
+            </summary>
+        </member>
+        <member name="T:SalesTaxesApi.Models.Receipt">
+            <summary>
+            Represents a Receipt in the system.
+            </summary>
+        </member>
+        <member name="P:SalesTaxesApi.Models.Receipt.receiptId">
+            <summary>
+            Gets or sets the ID of the Receipt.
+            </summary>
+        </member>
+        <member name="T:SalesTaxesApi.Models.ReceiptItem">
+            <summary>
+            Represents a Receipt Item in the system.
+            </summary>
+        </member>
+        <member name="P:SalesTaxesApi.Models.ReceiptItem.receiptItemId">
+            <summary>
+            Gets or sets the ID of the Receipt Item.
+            </summary>
+        </member>
+        <member name="T:SalesTaxesApi.Models.TaxType">
+            <summary>
+            Represents a Tax Type in the system.
+            </summary>
+        </member>
+        <member name="P:SalesTaxesApi.Models.TaxType.taxTypeId">
+            <summary>
+            Gets or sets the ID of the Tax type.
+            </summary>
+        </member>
         <member name="T:SalesTaxesApi.Migrations.InitialCreate">
             <inheritdoc />
         </member>
@@ -111,56 +161,6 @@
         </member>
         <member name="M:SalesTaxesApi.Migrations.UpdateValidations.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
-        </member>
-        <member name="T:SalesTaxesApi.Models.Product">
-            <summary>
-            Represents a Product in the system.
-            </summary>
-        </member>
-        <member name="P:SalesTaxesApi.Models.Product.productId">
-            <summary>
-            Gets or sets the ID of the product.
-            </summary>
-        </member>
-        <member name="T:SalesTaxesApi.Models.ProductType">
-            <summary>
-            Represents a Product Type in the system.
-            </summary>
-        </member>
-        <member name="P:SalesTaxesApi.Models.ProductType.productTypeId">
-            <summary>
-            Gets or sets the ID of the product type.
-            </summary>
-        </member>
-        <member name="T:SalesTaxesApi.Models.Receipt">
-            <summary>
-            Represents a Receipt in the system.
-            </summary>
-        </member>
-        <member name="P:SalesTaxesApi.Models.Receipt.receiptId">
-            <summary>
-            Gets or sets the ID of the Receipt.
-            </summary>
-        </member>
-        <member name="T:SalesTaxesApi.Models.ReceiptItem">
-            <summary>
-            Represents a Receipt Item in the system.
-            </summary>
-        </member>
-        <member name="P:SalesTaxesApi.Models.ReceiptItem.receiptItemId">
-            <summary>
-            Gets or sets the ID of the Receipt Item.
-            </summary>
-        </member>
-        <member name="T:SalesTaxesApi.Models.TaxType">
-            <summary>
-            Represents a Tax Type in the system.
-            </summary>
-        </member>
-        <member name="P:SalesTaxesApi.Models.TaxType.taxTypeId">
-            <summary>
-            Gets or sets the ID of the Tax type.
-            </summary>
         </member>
     </members>
 </doc>
