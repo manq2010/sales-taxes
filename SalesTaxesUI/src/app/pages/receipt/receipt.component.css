@@ -1,0 +1,31 @@
+td {
+    padding: 10px;
+}
+
+mat-table {
+    overflow-x: scroll;
+}
+
+mat-row,
+mat-header-row {
+    min-width: 800px;
+    text-align: center;
+}
+
+.mat-column-select {
+    max-width: 60px;
+    min-width: 50px;
+}
+
+.mat-column-action,
+.mat-column-total_taxes,
+.mat-column-total_cost,
+.mat-column-receipt_id {
+    max-width: 150px;
+    min-width: 110px;
+}
+
+.mat-column-created_at {
+    max-width: 220px;
+    min-width: 200px;
+}

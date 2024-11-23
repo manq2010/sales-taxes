@@ -1,0 +1,117 @@
+<div class="mt-10 flex-auto block py-8 px-9">
+    <div>
+        <div class="mb-9 flex justify-between items-center">
+            <div>
+                <h1 class="mb-2 text-[1.75rem] font-semibold text-dark">Receipts</h1>
+                <span class="text-[1.15rem] font-medium text-muted">See the list of Receipts already generated.</span>
+
+            </div>
+
+            <div class="flex space-x-4">
+                <button (click)="createReceipt()"
+                    class="flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
+                    aria-label="Create Receipt">
+                    <i class="fas fa-download mr-2"></i> Create Receipt
+                </button>
+            </div>
+        </div>
+        <div class="mt-10 w-full">
+
+            <mat-table #receiptTable id="receiptTable" mat-table [dataSource]="dataSource" matSort
+                class="mat-elevation-z8 overflow-auto" #receiptSort="matSort">
+
+                <ng-container matColumnDef="receipt_id">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        Receipt Number
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let receipt">
+                        REC-2024-{{ receipt.receiptId }}
+                    </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="client_name">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        Client Name
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let receipt">
+                        {{ receipt.clientName }}
+                    </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="client_email">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        Client Email
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let receipt">
+                        {{ receipt.clientEmail }}
+                    </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="created_at">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        Created Date
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let receipt">
+                        {{ receipt.createdAt | date : "medium" }}
+                    </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="total_taxes">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        Total Taxes
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let receipt"> {{ receipt.totalTaxes.toFixed(2) }} </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="total_cost">
+                    <mat-header-cell *matHeaderCellDef mat-sort-header>
+                        Total cost
+                    </mat-header-cell>
+                    <mat-cell *matCellDef="let receipt">
+                        {{ receipt.totalCost.toFixed(2) }}
+                    </mat-cell>
+                </ng-container>
+
+                <ng-container matColumnDef="action">
+                    <mat-header-cell *matHeaderCellDef> Action </mat-header-cell>
+                    <mat-cell *matCellDef="let receipt">
+                        <button mat-icon-button [matMenuTriggerFor]="actionMenu" class="mat-button mat-horizontal-menu">
+                            <mat-icon style="color: #323259">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24.51" height="6.128"
+                                    viewBox="0 0 24.51 6.128">
+                                    <path id="Icon_metro-more-horiz" data-name="Icon metro-more-horiz"
+                                        d="M10.776,15.424a3.064,3.064,0,1,0,3.064,3.064A3.063,3.063,0,0,0,10.776,15.424Zm18.383,0a3.064,3.064,0,1,0,3.064,3.064A3.063,3.063,0,0,0,29.159,15.424Zm-9.191,0a3.064,3.064,0,1,0,3.064,3.064,3.063,3.063,0,0,0-3.064-3.064Z"
+                                        transform="translate(-7.712 -15.424)" fill="#1f6a45" />
+                                </svg>
+                            </mat-icon>
+                        </button>
+
+                        <mat-menu #actionMenu="matMenu" class="mat-horizontal-menu">
+                            <button mat-menu-item (click)="navigateToViewReceipt(receipt.receiptId)">
+                                <mat-icon>visibility</mat-icon> View
+                            </button>
+                        </mat-menu>
+                    </mat-cell>
+                </ng-container>
+
+                <!-- Table Header Row -->
+                <mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></mat-header-row>
+                <mat-row *matRowDef="let row; 
+                columns: displayedColumns"></mat-row>
+
+                <tr class="mat-row" *matNoDataRow>
+                    <td class="mat-cell" colspan="4">
+                        {{ dataSource.filter ? 'No data matching the filter ' + dataSource.filter : 'No Data...'}}
+                    </td>
+                </tr>
+            </mat-table>
+
+            <mat-paginator #paginator [length]="TotalRecords" [pageIndex]="currentPage" [pageSize]="pageSize"
+                [pageSizeOptions]="[5, 10, TotalRecords]" (page)="pageChanged($event)" aria-label="Select page"
+                showFirstLastButtons aria-label="'Select page of receipts'">
+            </mat-paginator>
+
+
+        </div>
+    </div>
+</div>
