@@ -19,8 +19,11 @@ namespace SalesTaxesApi.Models
         public decimal totalTaxes { get; set; }
         [Range(0.00, 9999999.99)]
         public decimal totalCost { get; set; }
-        public string receiptName { get; set; }
-        public string aspUserId { get; set; }
+        [Required]
+        public string clientName { get; set; }
+        [Required]
+        [DataType(DataType.EmailAddress)]
+        public string clientEmail { get; set; }
         public DateTime? created_at { get; set; }
         public DateTime? updated_at { get; set; }
         public bool? isDeleted { get; set; }

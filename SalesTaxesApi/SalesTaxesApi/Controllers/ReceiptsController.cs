@@ -102,6 +102,36 @@ namespace SalesTaxesApi.Controllers
                 return Problem("Unable to process the receipt.");
             }
         }
+
+        [HttpGet("GetReceiptById")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Receipt))]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult GetReceiptById(int id)
+        {
+            try
+            {
+                var receipt = _receiptsService.GetReceiptById(id);
+                if (receipt == null)
+                {
+                    return NotFound($"Receipt with ID {id} was not found.");
+                }
+
+                return Ok(new ResponseResult
+                {
+                    Status = "Success",
+                    Message = "Successfully returned receipt",
+                    DetailDescription = new
+                    {
+                        Receipt = receipt
+                    }
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Unhandled exception from ReceiptController.GetReceiptById");
+                return Problem("Unable to Get the receipt");
+            }
+        }
         #endregion
 
 

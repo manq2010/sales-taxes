@@ -45,9 +45,11 @@ namespace SalesTaxesApi.Services
                 .Select(receipt => new PagedReceiptDto
                 {
                     ReceiptId = receipt.receiptId,
-                    ReceiptName = receipt.receiptName,
+                    ClientName = receipt.clientName,
+                    ClientEmail = receipt.clientEmail,
                     TotalTaxes = receipt.totalTaxes,
-                    TotalCost = receipt.totalCost
+                    TotalCost = receipt.totalCost,
+                    CreatedAt = receipt.created_at
                 })
                 .ToList();
 
@@ -80,6 +82,13 @@ namespace SalesTaxesApi.Services
         {
             return _context.Products
             .Where(d => d.isDeleted == false && d.isImport == false)
+            .ToList();
+        }
+
+        public IEnumerable<Product> GetAllGoods()
+        {
+            return _context.Products
+            .Where(d => d.isDeleted == false)
             .ToList();
         }
 

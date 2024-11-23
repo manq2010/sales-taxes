@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SalesTaxesApi.DbContexts;
 
@@ -11,9 +12,11 @@ using SalesTaxesApi.DbContexts;
 namespace SalesTaxesApi.Migrations
 {
     [DbContext(typeof(SalesTaxesDBContext))]
-    partial class SalesTaxesDBContextModelSnapshot : ModelSnapshot
+    [Migration("20241122205241_UpdateReceiptColumns")]
+    partial class UpdateReceiptColumns
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -249,9 +252,6 @@ namespace SalesTaxesApi.Migrations
                     b.Property<bool?>("isDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<bool?>("isExempt")
-                        .HasColumnType("bit");
-
                     b.Property<bool?>("isImport")
                         .HasColumnType("bit");
 
@@ -276,7 +276,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
                             isImport = false,
                             productName = "Book",
                             unitPrice = 12.49m,
@@ -288,7 +287,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = false,
                             isImport = false,
                             productName = "Music CD",
                             unitPrice = 14.99m,
@@ -300,9 +298,8 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
                             isImport = false,
-                            productName = "Chocolate bar",
+                            productName = "Chocolate Bar",
                             unitPrice = 0.85m,
                             updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -312,9 +309,8 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
                             isImport = true,
-                            productName = " Imported box of chocolates",
+                            productName = "Box of Chocolates",
                             unitPrice = 10.00m,
                             updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -324,9 +320,8 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = false,
                             isImport = true,
-                            productName = "Imported bottle of perfume",
+                            productName = "Bottle of Perfume",
                             unitPrice = 47.50m,
                             updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -336,9 +331,8 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = false,
                             isImport = true,
-                            productName = "Imported bottle of perfume",
+                            productName = "Bottle of Perfume",
                             unitPrice = 27.99m,
                             updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -348,9 +342,8 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = false,
                             isImport = false,
-                            productName = "Bottle of perfume",
+                            productName = "Bottle of Perfume",
                             unitPrice = 18.99m,
                             updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -360,9 +353,8 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
                             isImport = false,
-                            productName = "Packet of headache pills",
+                            productName = "Packet of paracetamol",
                             unitPrice = 9.75m,
                             updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -372,9 +364,8 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
                             isImport = true,
-                            productName = "Imported box of chocolates",
+                            productName = "Box of Chocolates",
                             unitPrice = 11.25m,
                             updated_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -536,20 +527,14 @@ namespace SalesTaxesApi.Migrations
                     b.Property<bool?>("isDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<bool?>("isExempted")
-                        .HasColumnType("bit");
-
-                    b.Property<bool?>("isImported")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("itemName")
+                    b.Property<string>("itemId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("priceIncludingTax")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("productTypeName")
+                    b.Property<string>("productTypeId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

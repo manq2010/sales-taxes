@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Program\u002B\u003C\u003Ec",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_5",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_6",
     "RelativePath": "",
     "HttpMethod": "GET",
     "IsController": false,
@@ -58,6 +58,22 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SalesTaxesApi.Controllers.LookupController",
+    "Method": "GetAllGoods",
+    "RelativePath": "api/v1/Lookup/GetAllGoods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "SalesTaxesApi.Controllers.LookupController",
@@ -385,6 +401,41 @@
           "text/json"
         ],
         "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "SalesTaxesApi.Controllers.ReceiptsController",
+    "Method": "GetReceiptById",
+    "RelativePath": "api/v1/Receipts/GetReceiptById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SalesTaxesApi.Models.Receipt",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       },
       {
         "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",

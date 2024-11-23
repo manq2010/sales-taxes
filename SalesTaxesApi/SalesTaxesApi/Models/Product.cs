@@ -19,6 +19,7 @@ namespace SalesTaxesApi.Models
         [Range(0.00, 9999999.99)]
         public decimal unitPrice { get; set; }
         public bool? isImport { get; set; }
+        public bool? isExempt { get; set; }
         public DateTime? created_at { get; set; }
         public DateTime? updated_at { get; set; }
         public bool? isDeleted { get; set; }

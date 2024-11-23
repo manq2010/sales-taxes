@@ -162,5 +162,77 @@
         <member name="M:SalesTaxesApi.Migrations.UpdateValidations.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:SalesTaxesApi.Migrations.UpdateReceiptColumns">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptColumns.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptColumns.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptColumns.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SalesTaxesApi.Migrations.UpdateReceiptItemColumns">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptItemColumns.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptItemColumns.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateReceiptItemColumns.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SalesTaxesApi.Migrations.UpdateSeeding">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateSeeding.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateSeeding.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UpdateSeeding.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SalesTaxesApi.Migrations.UddColumnProduct">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UddColumnProduct.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UddColumnProduct.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.UddColumnProduct.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SalesTaxesApi.Migrations.AddColumn">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.AddColumn.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.AddColumn.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.AddColumn.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SalesTaxesApi.Migrations.RemoveColumn">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.RemoveColumn.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.RemoveColumn.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SalesTaxesApi.Migrations.RemoveColumn.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

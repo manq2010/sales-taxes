@@ -15,8 +15,10 @@ namespace SalesTaxesApi.Models
         [Key]
         public int receiptItemId { get; set; }
         public int receiptId { get; set; }
-        public string itemId { get; set; }
-        public string productTypeId { get; set; }
+        public string itemName { get; set; }
+        public string productTypeName { get; set; }
+        public bool? isExempted { get; set; }
+        public bool? isImported { get; set; }
         [Range(1, 99999999)]
         public decimal quantity { get; set; }
         [Range(0.00, 999999999.99)]
