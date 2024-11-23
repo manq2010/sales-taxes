@@ -71,22 +71,16 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need on the from end folder and backend folders repestively:
 
-<!--
-
 ```sh
  npm start
 ```
 ```sh
  dotnet run
 ```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-<!--
-Example commands:
 
 ```sh
   cd SalesTaxesApi
@@ -96,33 +90,23 @@ Example commands:
   cd SalesTaxesUI
   git clone https://github.com/manq2010/sales-taxes
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-
 ```sh
   cd SalesTaxesUI
   npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Command for FE which is on port 4200:
-
 ```sh
   npm start
 ```
-
-For Back end please consider using Visual Studio 2022
---->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
