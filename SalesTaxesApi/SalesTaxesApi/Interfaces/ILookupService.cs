@@ -10,6 +10,7 @@ namespace SalesTaxesApi.Interfaces
         IEnumerable<ProductType> GetAllProductTypes();
         IEnumerable<Product> GetAllImportedGoods();
         IEnumerable<Product> GetAllLocalGoods();
+        IEnumerable<Product> GetAllGoods();
         IEnumerable<TaxType> GetAllTaxTypes();
     }
 }

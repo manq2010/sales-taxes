@@ -91,6 +91,7 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
                 productName = "Book",
                 unitPrice = 12.49m,
                 isImport = false,
+                isExempt = true,
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,
@@ -102,6 +103,7 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
                 productName = "Music CD",
                 unitPrice = 14.99m,
                 isImport = false,
+                isExempt = false,
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,
@@ -110,9 +112,10 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
             new Product
             {
                 productId = 3,
-                productName = "Chocolate Bar",
+                productName = "Chocolate bar",
                 unitPrice = 0.85m,
                 isImport = false,
+                isExempt = true,
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,
@@ -121,9 +124,10 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
             new Product
             {
                 productId = 4,
-                productName = "Box of Chocolates",
+                productName = " Imported box of chocolates",
                 unitPrice = 10.00m,
                 isImport = true,
+                isExempt = true,
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,
@@ -132,9 +136,10 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
             new Product
             {
                 productId = 5,
-                productName = "Bottle of Perfume",
+                productName = "Imported bottle of perfume",
                 unitPrice = 47.50m,
                 isImport = true,
+                isExempt = false,
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,
@@ -143,9 +148,10 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
             new Product
             {
                 productId = 6,
-                productName = "Bottle of Perfume",
+                productName = "Imported bottle of perfume",
                 unitPrice = 27.99m,
                 isImport = true,
+                isExempt = false,
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,
@@ -154,9 +160,10 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
             new Product
             {
                 productId = 7,
-                productName = "Bottle of Perfume",
+                productName = "Bottle of perfume",
                 unitPrice = 18.99m,
                 isImport = false,
+                isExempt = false,
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,
@@ -165,9 +172,10 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
             new Product
             {
                 productId = 8,
-                productName = "Packet of paracetamol",
+                productName = "Packet of headache pills",
                 unitPrice = 9.75m,
                 isImport = false,
+                isExempt = true,
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,
@@ -176,9 +184,10 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
             new Product
             {
                 productId = 9,
-                productName = "Box of Chocolates",
+                productName = "Imported box of chocolates",
                 unitPrice = 11.25m,
                 isImport = true,
+                isExempt = true,
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,
@@ -191,8 +200,8 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
             new Receipt
             {
                 receiptId = 1,
-                receiptName = "Local Only Shopping",
-                aspUserId = "",
+                clientName = "Willing Trader",
+                clientEmail = "willing@trader.com",
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,
@@ -201,8 +210,8 @@ public class SalesTaxesDBContext : IdentityDbContext<MyUser>
             new Receipt
             {
                 receiptId = 2,
-                receiptName = "LocaL and International Shopping",
-                aspUserId = "",
+                clientName = "Test Driving",
+                clientEmail = "test@driving.com",
                 created_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 updated_at = new DateTime(2024, 11, 20, 12, 0, 0),
                 isDeleted = false,

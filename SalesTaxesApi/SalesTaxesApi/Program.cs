@@ -24,6 +24,18 @@ builder.Services.AddControllers();
 
 const string DefaultCorsPolicy = "DefaultCorsPolicy";
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(DefaultCorsPolicy,
+        builder =>
+        {
+            builder.SetIsOriginAllowed(_ => true)
+                   .AllowAnyHeader()
+                   .AllowAnyMethod()
+                   .AllowCredentials();
+        });
+});
+
 builder.Services.AddDbContext<SalesTaxesDBContext>(options =>
 {
     options.UseSqlServer(connectionString);

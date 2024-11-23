@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SalesTaxesApi.DbContexts;
 
@@ -11,9 +12,11 @@ using SalesTaxesApi.DbContexts;
 namespace SalesTaxesApi.Migrations
 {
     [DbContext(typeof(SalesTaxesDBContext))]
-    partial class SalesTaxesDBContextModelSnapshot : ModelSnapshot
+    [Migration("20241123034937_UpdateSeeding")]
+    partial class UpdateSeeding
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -249,9 +252,6 @@ namespace SalesTaxesApi.Migrations
                     b.Property<bool?>("isDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<bool?>("isExempt")
-                        .HasColumnType("bit");
-
                     b.Property<bool?>("isImport")
                         .HasColumnType("bit");
 
@@ -276,7 +276,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
                             isImport = false,
                             productName = "Book",
                             unitPrice = 12.49m,
@@ -288,7 +287,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = false,
                             isImport = false,
                             productName = "Music CD",
                             unitPrice = 14.99m,
@@ -300,7 +298,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
                             isImport = false,
                             productName = "Chocolate bar",
                             unitPrice = 0.85m,
@@ -312,7 +309,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
                             isImport = true,
                             productName = " Imported box of chocolates",
                             unitPrice = 10.00m,
@@ -324,7 +320,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = false,
                             isImport = true,
                             productName = "Imported bottle of perfume",
                             unitPrice = 47.50m,
@@ -336,7 +331,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = false,
                             isImport = true,
                             productName = "Imported bottle of perfume",
                             unitPrice = 27.99m,
@@ -348,7 +342,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = false,
                             isImport = false,
                             productName = "Bottle of perfume",
                             unitPrice = 18.99m,
@@ -360,7 +353,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
                             isImport = false,
                             productName = "Packet of headache pills",
                             unitPrice = 9.75m,
@@ -372,7 +364,6 @@ namespace SalesTaxesApi.Migrations
                             created_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             deleted_at = new DateTime(2024, 11, 20, 12, 0, 0, 0, DateTimeKind.Unspecified),
                             isDeleted = false,
-                            isExempt = true,
                             isImport = true,
                             productName = "Imported box of chocolates",
                             unitPrice = 11.25m,

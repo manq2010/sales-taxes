@@ -9,5 +9,6 @@ namespace SalesTaxesApi.Dtos
         public string ProductName { get; set; }
         public decimal UnitPrice { get; set; }
         public bool? IsImport { get; set; }
+        public bool? IsExempt { get; set; }
     }
 }

@@ -120,7 +120,8 @@ namespace SalesTaxesApi.Controllers
                     ProductId = p.productId,
                     ProductName = p.productName,
                     UnitPrice = p.unitPrice,
-                    IsImport = p.isImport
+                    IsImport = p.isImport,
+                    IsExempt = p.isExempt
 
                 }).ToList();
 
@@ -147,7 +148,8 @@ namespace SalesTaxesApi.Controllers
                     ProductId = p.productId,
                     ProductName = p.productName,
                     UnitPrice = p.unitPrice,
-                    IsImport = p.isImport
+                    IsImport = p.isImport,
+                    IsExempt = p.isExempt
 
                 }).ToList();
 
@@ -158,6 +160,34 @@ namespace SalesTaxesApi.Controllers
             {
                 _logger.LogError(ex, "Unhandled exception from LookupController.GetAllLocalGoods");
                 return Problem("Unable to process GetAllLocalGoods.");
+            }
+        }
+
+        [HttpGet("GetAllGoods")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public IActionResult GetAllGoods()
+        {
+            try
+            {
+                var localGoods = _lookupService.GetAllGoods();
+
+                var toReturn = localGoods.Select(p => new ProductDto
+                {
+                    ProductId = p.productId,
+                    ProductName = p.productName,
+                    UnitPrice = p.unitPrice,
+                    IsImport = p.isImport,
+                    IsExempt = p.isExempt
+
+                }).ToList();
+
+                return new OkObjectResult(toReturn);
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Unhandled exception from LookupController.GetAllGoods");
+                return Problem("Unable to process GetAllGoods.");
             }
         }
 

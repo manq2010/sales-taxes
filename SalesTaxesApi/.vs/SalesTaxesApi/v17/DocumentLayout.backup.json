@@ -3,6 +3,78 @@
   "WorkspaceRootPath": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\models\\receiptitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\models\\receiptitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\controllers\\receiptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\controllers\\receiptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\controllers\\lookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\controllers\\lookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\services\\lookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\services\\lookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dtos\\pagedreceiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\pagedreceiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\models\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\models\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dtos\\receiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\receiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\services\\receiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\services\\receiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\interfaces\\ireceiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\interfaces\\ireceiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\controllers\\taxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\controllers\\taxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\interfaces\\ilookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\interfaces\\ilookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,48 +103,12 @@
       "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\loginresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\controllers\\receiptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\controllers\\receiptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\models\\responsepaged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\models\\responsepaged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\controllers\\lookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\controllers\\lookupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\services\\lookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\services\\lookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dtos\\pagedreceiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\pagedreceiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\interfaces\\ilookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\interfaces\\ilookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dtos\\receiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\receiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dtos\\taxtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\taxtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\models\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\models\\receipt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\configurations\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,44 +147,16 @@
       "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\services\\taxservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\interfaces\\ireceiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\interfaces\\ireceiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dtos\\producttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dtos\\producttypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\services\\receiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\services\\receiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\salestaxesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\salestaxesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\models\\receiptitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\models\\receiptitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\models\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\models\\producttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\controllers\\taxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|solutionrelative:salestaxesapi\\controllers\\taxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA0AAB56-F30B-4687-94FB-547F2DA7D1AC}|SalesTaxesApi\\SalesTaxesApi.csproj|c:\\users\\manq2\\desktop\\mancoba\\sales-taxes\\salestaxesapi\\salestaxesapi\\services\\authenticateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -182,7 +190,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 564,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,189 +198,180 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Program.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Program.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Program.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Program.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAkwGUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:41:47.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticateController.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\AuthenticateController.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Controllers\\AuthenticateController.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\AuthenticateController.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Controllers\\AuthenticateController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAYwDQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:13:24.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ResponsePaged.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\ResponsePaged.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\ResponsePaged.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\ResponsePaged.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Models\\ResponsePaged.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:31:03.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\LoginDto.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Dtos\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:17:40.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\appsettings.json",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\appsettings.json",
-              "RelativeToolTip": "SalesTaxesApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-21T21:14:53.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\appsettings.Development.json",
-              "RelativeToolTip": "SalesTaxesApi\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-21T21:14:43.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LookupController.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\LookupController.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Controllers\\LookupController.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\LookupController.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Controllers\\LookupController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA4AAAAsAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAgwAkBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T18:30:00.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LookupService.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\LookupService.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Services\\LookupService.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\LookupService.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Services\\LookupService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAwDAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:16:39.586Z",
+              "WhenOpened": "2024-11-22T20:11:29.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\RegisterDto.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Dtos\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:34:53.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T20:14:40.514Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LoginResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\LoginResultDto.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\LoginResultDto.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\LoginResultDto.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Dtos\\LoginResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Title": "LookupController.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\LookupController.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Controllers\\LookupController.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\LookupController.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Controllers\\LookupController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAswKgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:22:34.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T18:30:00.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "ReceiptsController.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\ReceiptsController.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Controllers\\ReceiptsController.cs",
               "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\ReceiptsController.cs",
               "RelativeToolTip": "SalesTaxesApi\\Controllers\\ReceiptsController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowCkAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAIA2wDYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T21:26:59.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ReceiptDto.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\ReceiptDto.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\ReceiptDto.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\ReceiptDto.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Dtos\\ReceiptDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ReceiptItem.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\ReceiptItem.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\ReceiptItem.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\ReceiptItem.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Models\\ReceiptItem.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:26:03.011Z",
+              "WhenOpened": "2024-11-21T12:46:03.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PagedReceiptDto.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\PagedReceiptDto.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\PagedReceiptDto.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\PagedReceiptDto.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Dtos\\PagedReceiptDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\Product.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T00:05:13.688Z",
+              "WhenOpened": "2024-11-21T14:45:52.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\DbContexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\DbContexts\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\DbContexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SalesTaxesApi\\DbContexts\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T03:36:42.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\ProductDto.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\ProductDto.cs",
               "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\ProductDto.cs",
               "RelativeToolTip": "SalesTaxesApi\\Dtos\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:02:22.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:02:22.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
+              "Title": "ReceiptsService.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\ReceiptsService.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Services\\ReceiptsService.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\ReceiptsService.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Services\\ReceiptsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:15:15.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Receipt.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\Receipt.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\Receipt.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\Receipt.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Models\\Receipt.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:45:50.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PagedReceiptDto.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\PagedReceiptDto.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\PagedReceiptDto.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\PagedReceiptDto.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Dtos\\PagedReceiptDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:05:13.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LookupService.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\LookupService.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Services\\LookupService.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\LookupService.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Services\\LookupService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAArwC0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:16:39.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReceiptDto.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\ReceiptDto.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\ReceiptDto.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\ReceiptDto.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Dtos\\ReceiptDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:26:03.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\ProductService.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Services\\ProductService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAvwE0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:28:25.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\ResponseDto.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\ResponseDto.cs",
@@ -380,38 +379,143 @@
               "RelativeToolTip": "SalesTaxesApi\\Dtos\\ResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:24:26.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:24:26.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
+              "Title": "IReceiptsService.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\IReceiptsService.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Interfaces\\IReceiptsService.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\IReceiptsService.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Interfaces\\IReceiptsService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:20:32.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaxController.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\TaxController.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Controllers\\TaxController.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\TaxController.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Controllers\\TaxController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:52:28.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ILookupService.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\ILookupService.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Interfaces\\ILookupService.cs",
               "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\ILookupService.cs",
               "RelativeToolTip": "SalesTaxesApi\\Interfaces\\ILookupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:19:19.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:19:19.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Receipt.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\Receipt.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\Receipt.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\Receipt.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Models\\Receipt.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBQAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\appsettings.Development.json",
+              "RelativeToolTip": "SalesTaxesApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T21:14:43.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\appsettings.json",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\appsettings.json",
+              "RelativeToolTip": "SalesTaxesApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T21:14:53.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:45:50.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T00:17:40.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ResponsePaged.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\ResponsePaged.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\ResponsePaged.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\ResponsePaged.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Models\\ResponsePaged.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:31:03.924Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Program.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Program.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Program.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Program.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAswKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:41:47.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwDQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:13:24.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:34:53.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\LoginResultDto.cs",
+              "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\LoginResultDto.cs",
+              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\LoginResultDto.cs",
+              "RelativeToolTip": "SalesTaxesApi\\Dtos\\LoginResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:22:34.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "DependencyInjectionConfig.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Configurations\\DependencyInjectionConfig.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Configurations\\DependencyInjectionConfig.cs",
@@ -419,12 +523,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Configurations\\DependencyInjectionConfig.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T18:55:43.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T18:55:43.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "PaginationConfig.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Configurations\\PaginationConfig.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Configurations\\PaginationConfig.cs",
@@ -432,12 +535,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Configurations\\PaginationConfig.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAQwB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:48:04.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:48:04.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "TaxTypeDto.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\TaxTypeDto.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\TaxTypeDto.cs",
@@ -445,12 +547,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Dtos\\TaxTypeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T20:17:11.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T20:17:11.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "PagedResponse.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\PagedResponse.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\PagedResponse.cs",
@@ -458,12 +559,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Models\\PagedResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:29:43.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:29:43.792Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "UriService.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\UriService.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Services\\UriService.cs",
@@ -471,12 +571,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Services\\UriService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:25:39.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:25:39.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 31,
               "Title": "PaginationFilter.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\PaginationFilter.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\PaginationFilter.cs",
@@ -484,12 +583,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Models\\PaginationFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:28:46.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:28:46.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "ResponseResult.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\ResponseResult.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\ResponseResult.cs",
@@ -497,12 +595,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Models\\ResponseResult.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:10:14.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T14:10:14.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "IUriService.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\IUriService.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Interfaces\\IUriService.cs",
@@ -510,12 +607,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Interfaces\\IUriService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:27:10.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T23:27:10.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "ITaxService.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\ITaxService.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Interfaces\\ITaxService.cs",
@@ -523,12 +619,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Interfaces\\ITaxService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAtwAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:11:30.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:11:30.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "TaxService.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\TaxService.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Services\\TaxService.cs",
@@ -536,38 +631,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Services\\TaxService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:02:48.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:02:48.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\Product.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Models\\Product.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBQwBMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:45:52.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IReceiptsService.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\IReceiptsService.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Interfaces\\IReceiptsService.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\IReceiptsService.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Interfaces\\IReceiptsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:20:32.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "ProductTypeDto.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Dtos\\ProductTypeDto.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Dtos\\ProductTypeDto.cs",
@@ -575,12 +643,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Dtos\\ProductTypeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T18:42:28.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T18:42:28.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "SalesTaxesApi.csproj",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\SalesTaxesApi.csproj",
               "RelativeDocumentMoniker": "SalesTaxesApi\\SalesTaxesApi.csproj",
@@ -588,38 +655,11 @@
               "RelativeToolTip": "SalesTaxesApi\\SalesTaxesApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-20T18:54:43.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T18:54:43.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ReceiptsService.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\ReceiptsService.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Services\\ReceiptsService.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\ReceiptsService.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Services\\ReceiptsService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAmwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:15:15.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\ProductService.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T22:28:25.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "ProductType.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\ProductType.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\ProductType.cs",
@@ -627,51 +667,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Models\\ProductType.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T21:59:11.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T21:59:11.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ReceiptItem.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\ReceiptItem.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\ReceiptItem.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\ReceiptItem.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Models\\ReceiptItem.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:46:03.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\DbContexts\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\DbContexts\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\DbContexts\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SalesTaxesApi\\DbContexts\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDoAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:43:30.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "TaxController.cs",
-              "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\TaxController.cs",
-              "RelativeDocumentMoniker": "SalesTaxesApi\\Controllers\\TaxController.cs",
-              "ToolTip": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Controllers\\TaxController.cs",
-              "RelativeToolTip": "SalesTaxesApi\\Controllers\\TaxController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T16:52:28.511Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "AuthenticateService.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Services\\AuthenticateService.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Services\\AuthenticateService.cs",
@@ -679,12 +679,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Services\\AuthenticateService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAArwAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:14:12.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:14:12.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "UpdateResult.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\UpdateResult.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\UpdateResult.cs",
@@ -692,12 +691,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Models\\UpdateResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:17:20.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:17:20.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "DeleteResult.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\DeleteResult.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\DeleteResult.cs",
@@ -705,12 +703,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Models\\DeleteResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:49:27.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:49:27.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "CreateResult.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\CreateResult.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\CreateResult.cs",
@@ -718,12 +715,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Models\\CreateResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T13:27:19.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:27:19.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "IdentityUser.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Models\\IdentityUser.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Models\\IdentityUser.cs",
@@ -731,12 +727,11 @@
               "RelativeToolTip": "SalesTaxesApi\\Models\\IdentityUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:45:47.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T14:45:47.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "IAuthenticateService.cs",
               "DocumentMoniker": "C:\\Users\\manq2\\Desktop\\Mancoba\\sales-taxes\\SalesTaxesApi\\SalesTaxesApi\\Interfaces\\IAuthenticateService.cs",
               "RelativeDocumentMoniker": "SalesTaxesApi\\Interfaces\\IAuthenticateService.cs",
@@ -744,8 +739,7 @@
               "RelativeToolTip": "SalesTaxesApi\\Interfaces\\IAuthenticateService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T18:59:30.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T18:59:30.935Z"
             }
           ]
         }

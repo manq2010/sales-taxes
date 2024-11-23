@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using SalesTaxesApi.DbContexts;
 using SalesTaxesApi.Interfaces;
@@ -54,6 +55,21 @@ namespace SalesTaxesApi.Services
             Save();
 
             return Task.FromResult(UpdateResult.SuccessResultUpdate(receipt.receiptId));
+        }
+
+        public Receipt? GetReceiptById(int id)
+        {
+            var receipt = _context.Receipts
+                    .Where(d => d.receiptId == id)
+                    .Include(ri =>ri.ReceiptItems)
+                    .FirstOrDefault();
+
+            if (receipt == null)
+            {
+                return null;
+            }
+
+            return receipt;
         }
 
         public void Save()
